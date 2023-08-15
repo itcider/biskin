@@ -322,11 +322,14 @@ font-weight: bold;
     padding:5px;
     font-weight: bold;
   }
-div:not(.label,.widget,.CSS_LAYOUT_COMPONENT *,.CSS_LIGHTBOX_BTN_CLOSE ,.CSS_LIGHTBOX_BTN_CLOSE_POS,.CSS_LAYOUT_COMPONENT,.CSS_LIGHTBOX_SCALED_IMAGE,.CSS_LIGHTBOX_SCALED_IMAGE_PREVIOUS_IMAGE_CONTAINER,.goog-inline-block,.swal2-shown *){
+div:not(.label,.widget,.CSS_LAYOUT_COMPONENT *,.CSS_LIGHTBOX_BTN_CLOSE ,.CSS_LIGHTBOX_BTN_CLOSE_POS,.CSS_LAYOUT_COMPONENT,.CSS_LIGHTBOX_SCALED_IMAGE,.CSS_LIGHTBOX_SCALED_IMAGE_PREVIOUS_IMAGE_CONTAINER,.goog-inline-block,.swal2-shown *,.dim-overlay){
   border-radius: 8px
 }
 .post-tag li{
 display: inline-block;
+}
+.bithemelic{
+margin:20px;
 }
 .post-filter-message{
   border-radius: 8px
@@ -3586,7 +3589,7 @@ padding-right:$(sidebar.width)
               <!-- Blog name and header -->
               <div class='blog-name'>
                 <b:section id='header' name='Header' showaddelement='false'>
-                  <b:widget id='Header1' locked='true' title='qask(헤더)' type='Header' version='2' visible='true'>
+                  <b:widget id='Header1' locked='true' title='itcider dev(헤더)' type='Header' version='2' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='displayUrl'/>
                       <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -5107,7 +5110,7 @@ padding-right:$(sidebar.width)
 
           <!-- itcider 스킨 소개 - 더 많은 분들이 사용할 수 있도록 지우지 말아주세요-->
           <!--이 문구를 삭제할 경우 itcider skin license를 위반하는 것입니다. 위반할 경우 bi theme를 사용할 수 없습니다.-->
-          <a href='https://itcider.com/1452'>Bi theme v1.3 by itcider.com</a>
+          <a class='bithemelic' href='https://itcider.com/1452'>Bi theme v1.3 by itcider.com</a>
           <!-- itcider 스킨 소개 - 더 많은 분들이 사용할 수 있도록 지우지 말아주세요-->
           <!--이 문구를 삭제할 경우 itcider skin license를 위반하는 것입니다. 위반할 경우 bi theme를 사용할 수 없습니다.-->
         </aside>
