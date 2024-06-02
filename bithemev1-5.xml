@@ -5160,7 +5160,7 @@ padding-right:$(sidebar.width)
         </ul>
       </div>
   
-    <b:template-script async='true' name='strm' version='1.0.0'/>
+   <!-- <b:template-script async='true' name='strm' version='1.0.0'/>-->
     <script type='text/javascript'>
    /*<![CDATA[*/
     var perPage=7;
